@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YYNavigationController.h
 //  iOS-Example-demo
 //
 //  Created by Arvin on 16/9/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YYNavigationController : UINavigationController
 
 @end
-
