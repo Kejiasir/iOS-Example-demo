@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A232DA1E1D980DCB008B0D9C /* YYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A232DA1D1D980DCB008B0D9C /* YYTestViewController.m */; };
 		A2C1A4F81D950D5200EB9C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1A4F71D950D5200EB9C9A /* main.m */; };
 		A2C1A4FB1D950D5200EB9C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1A4FA1D950D5200EB9C9A /* AppDelegate.m */; };
 		A2C1A5031D950D5200EB9C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C1A5021D950D5200EB9C9A /* Assets.xcassets */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A232DA1C1D980DCB008B0D9C /* YYTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTestViewController.h; sourceTree = "<group>"; };
+		A232DA1D1D980DCB008B0D9C /* YYTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTestViewController.m; sourceTree = "<group>"; };
 		A2C1A4F31D950D5200EB9C9A /* iOS-Example-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Example-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C1A4F71D950D5200EB9C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2C1A4F91D950D5200EB9C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -228,6 +231,8 @@
 			children = (
 				A2C1A53C1D9517AB00EB9C9A /* YYLiveViewController.h */,
 				A2C1A53D1D9517AB00EB9C9A /* YYLiveViewController.m */,
+				A232DA1C1D980DCB008B0D9C /* YYTestViewController.h */,
+				A232DA1D1D980DCB008B0D9C /* YYTestViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 				A2C1A53E1D9517AB00EB9C9A /* YYLiveViewController.m in Sources */,
 				A2C1A52C1D9514A000EB9C9A /* YYTabBarController.m in Sources */,
 				A2C1A4FB1D950D5200EB9C9A /* AppDelegate.m in Sources */,
+				A232DA1E1D980DCB008B0D9C /* YYTestViewController.m in Sources */,
 				A2C1A5381D95177B00EB9C9A /* YYDrinkViewController.m in Sources */,
 				A2C1A5351D9516D400EB9C9A /* UIView+Extension.m in Sources */,
 				A2C1A5321D9515F500EB9C9A /* YYTabBar.m in Sources */,
@@ -528,6 +534,7 @@
 				A2C1A50C1D950D5200EB9C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

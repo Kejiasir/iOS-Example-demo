@@ -29,14 +29,14 @@
         [centerBtn setTag:10];
         [centerBtn setBackgroundImage:[UIImage imageNamed:@"ycy_yql_fb"] forState:UIControlStateNormal];
         [centerBtn setBackgroundImage:[UIImage imageNamed:@"ycy_yql_fb"] forState:UIControlStateHighlighted];
-        [centerBtn addTarget:self action:@selector(compileBtnDidClick:) forControlEvents:UIControlEventTouchUpInside];
+        [centerBtn addTarget:self action:@selector(centerBtnDidClick:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:centerBtn];
         self.centerBtn = centerBtn;
     }
     return self;
 }
 
-- (void)compileBtnDidClick:(UIButton *)button {
+- (void)centerBtnDidClick:(UIButton *)button {
     if ([self.tabDelegate respondsToSelector:@selector(tabBar:didSelectedIndex:)]) {
         [self.tabDelegate tabBar:self didSelectedIndex:button.tag];
     }
